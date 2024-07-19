@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../Images/Squash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+    font-size: 60px;
+}
+
+p {
+  color: white;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #11d35b;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div.a {
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #11d35b;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #87be20;
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+
+ img {
+    width: 100%;
+ }
+
+ .row::after {
+  content: "";
+  clear: both;
+ }
+
+ .column {
+  width: 100%;
+  padding: 5px;
+ }
+
+ @media screen and (min-width: 800px) {
+  .column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+  }
+ }
+
+  .image {
+    width: 33%;
+  }
+
+ input[type=text], [type=tel], [type=email] {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #87be20;
+  border-radius: 8px;
+}
+
+textarea {
+  border: 2px solid #87be20;
+  border-radius: 8px;
+}
